@@ -1,8 +1,22 @@
-body{background-color: pink;}
-h1{color: #4a0396; font-size: 50px;}
+body {
+  background-color: pink;
+}
+h1 {
+  color: #4a0396;
+  font-size: 50px;
+}
 
-#titulo{color: beige;}
-.margenes{color: red}
-.listita{color: purple}
+#titulo {
+  color: beige;
+}
+.margenes {
+  color: red;
+}
+.listita {
+  color: purple;
+}
 /* comentario, se pone con Ctr + } */
-*{border: solid; border-width: 2px; border-color: blue;}
+/*{border: solid; border-width: 2px; border-color: blue;}*/
+#fotoBadBunny{
+    width: 300px; height: auto;
+}
