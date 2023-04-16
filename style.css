@@ -82,3 +82,51 @@ header {
 img{
   width: 90vw
 }
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 2vh;
+  color: #fff;
+  font-size: 1vw;
+  margin: 0;
+  width: 100vw;
+}
+
+.footer-section {
+  width: 30vw;
+  margin-bottom: 2vh;
+}
+
+.footer-title {
+  font-size: 3vw;
+  margin-bottom: 2vh;
+}
+
+.footer-list {
+  list-style: none;
+  margin-bottom: 3vh;
+}
+
+.footer-list li {
+  margin-bottom: 1vh;
+}
+
+.footer-list li a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.2s ease-in-out;
+}
+
+.footer-list li a:hover {
+  border-bottom-color: #fff;
+}
+
+.footer-text {
+  margin-top: 2vh;
+  text-align: center;
+  font-size: 2vw;
+}
