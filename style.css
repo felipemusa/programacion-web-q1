@@ -1,24 +1,84 @@
+/* colores:
+5D5F71
+D7C0D0
+F7C7DB
+F79AD3
+C86FC9
+8E518D
+474973
+*/
+
 body {
-  background-color: pink;
+  background-color: #F79AD3;
 }
 h1 {
   color: #4a0396;
   background-color: black;
   font-size: 50px;
 }
-
-#titulo {
-  color: beige;
-}
-.margenes {
-  color: red;
-}
-.listita {
-  color: darkblue;
-}
 /* comentario, se pone con Ctr + } */
-/*{border: solid; border-width: 2px; border-color: blue;}*/
-#fotoBadBunny{
-    width: 300px; height: auto;
+
+header {
+  width: 100vw;
 }
 
+.navbar {
+  background-color: #C86FC9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  padding: 2vw;
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  flex: 1;
+  flex-basis: 12vw;
+  margin: 1vw;
+  float: left;
+  max-width: 30vw;
+  max-height: 8vh
+}
+
+.logo-link img {
+  height: auto;
+  width: auto;
+  max-width: 30vw;
+  max-height: 8vh
+}
+
+.navbar-buttons {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5vw;
+  flex: 1;
+  margin: 4vw;
+}
+
+.navbar-link {
+  background-color: #C86FC9;
+  color: #FFF;
+  text-decoration: none;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  line-height: 1;
+  width: 5vw;
+  flex-grow: 1;
+  margin: 0.5vw ;
+
+  /* transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; */
+}
+
+.navbar-link:hover {
+  background-color: #8E518D;
+  color: #FFF;
+}
+
+img{
+  width: 90vw
+}
