@@ -11,12 +11,81 @@ C86FC9
 /* hover es cuando el mouse está arriba
 visited es para cuando ya entraste a ese link */
 
-* {
+/* * {
   border: 1px solid rgb(27, 0, 230);
   margin: 0px;
+} */
+
+
+#padding-nav{
+  padding: 0
 }
 
-@media (max-width: 767px) {
+
+.container-fluid{
+  background-color: #F79AD3;
+}
+
+.navbar-brand{
+  border-radius: 1vw;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-brand a:hover{
+  background-color: #C86FC9;
+  color: #FFF;
+}
+
+.navbar-toggler{
+  border-radius: 1vw
+}
+
+.nav-item{
+  border-radius: 1vw;
+}
+
+.nav-link{
+  border-radius: 1vw;
+}
+
+.nav-item a:hover{
+  background-color: #C86FC9;
+  color: #FFF
+}
+
+.blockcode{
+  background-color: #F79AD3;
+}
+
+#img-logo{
+  border-radius: 1vw;
+}
+
+.mt-5{
+  margin-top: 1vw!important;
+}
+
+#mb-4-1{
+  margin-top: 6vw;
+}
+
+#mb-4-2{
+  margin-top: 6vw;
+}
+
+body{
+  margin-top: 8vh;
+}
+
+main{
+  background-color: #ffe7f6;
+  border-color: #ffe7f6;
+  margin: vw;
+}
+
+
+/* @media (max-width: 767px) {
   .navbar {
     flex-direction: column;
     position: fixed;
@@ -111,9 +180,8 @@ body {
   max-height: 10vh;
   background-color: #c86fc9;
   color: #fff;
-
-  /* transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out; */
 }
+
 
 .navbar-link:hover {
   background-color: #8e518d;
@@ -163,4 +231,4 @@ img {
 .footer-text {
   text-align: center;
   font-size: 1.5vw;
-}
+} */
