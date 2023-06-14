@@ -1,24 +1,22 @@
-let viejo 
-console.log("hola");
-viejo = prompt('Edad?');
-if(viejo >= 18){
-    console.log("La persona es mayor de 18 años puede ingresar")
-}
-else{
-    console.log("La perosona es menor de edad");
+let total = 0;
+let cantidad=0;
+function sumarprecio(valorproducto) {
+  total = total + valorproducto;
+  document.getElementById("total-a-pagar").innerHTML =
+     "$" + total ;
+  cantidad+=1;
+  document.getElementById('cantidad').innerHTML = cantidad;
+  document.getElementById('no-productos').innerHTML=" ";
+
+    }
+function Borrar() {
+  total = 0;
+  document.getElementById("total-a-pagar").innerHTML = " $" + total;
+  document.getElementById('no-productos').innerHTML="No hay productos en el carrito.";
+  cantidad=0;
+  document.getElementById('cantidad').innerHTML = cantidad;
+
 }
 
-
-let array1 = [1,2,3]
-console.log(array1);
-console.log(array1[0]);
-    
-const ARRAY2 = [1]
-//Metodos de arrays
-//POP : elimina el ultimo elemento
-array1.pop();
-console.log(array1);
-//Push: añade un elemento al array
-    
-array1.push(3.14);
-console.log(array1);
+// hacer una funcion inversa a la de SUMAR PRECIO. y
+// agregarla a un botón al lado de comprar 
