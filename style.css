@@ -1,23 +1,13 @@
-/* colores:
-5D5F71
-D7C0D0
-F7C7DB
-F79AD3
-C86FC9
-8E518D
-474973
-*/
-
-/* hover es cuando el mouse está arriba
-visited es para cuando ya entraste a ese link */
-
-/* * {
-  border: 1px solid rgb(27, 0, 230);
-  margin: 0px;
-} */
-
 #padding-nav {
   padding: 0 !important;
+}
+
+p{
+  color:#5D5F71;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-variant: small-caps;
+
 }
 
 .container-fluid {
@@ -79,12 +69,10 @@ body {
 main {
   background-color: #ffe7f6;
   border-color: #ffe7f6;
-  /* margin: vw; */
 }
 
 p {
   margin-bottom: 0;
-  /* margin-top: 0; */
 }
 
 .col-md-4 {
@@ -95,3 +83,26 @@ p {
   padding: 9vw;
   background-color: #ffe7f6;
 }
+
+.container-cart{
+  justify-content: center;
+}
+
+/* colores:
+5D5F71
+D7C0D0
+F7C7DB
+F79AD3
+C86FC9
+8E518D
+474973
+*/
+
+/* hover es cuando el mouse está arriba
+visited es para cuando ya entraste a ese link */
+
+/* * {
+  border: 1px solid rgb(27, 0, 230);
+  margin: 0px;
+} */
+
