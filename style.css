@@ -16,84 +16,82 @@ visited es para cuando ya entraste a ese link */
   margin: 0px;
 } */
 
-
-#padding-nav{
-  padding: 0
+#padding-nav {
+  padding: 0 !important;
 }
 
-
-.container-fluid{
-  background-color: #F79AD3;
+.container-fluid {
+  background-color: #f79ad3;
 }
 
-.navbar-brand{
+.navbar-brand {
   border-radius: 1vw;
   padding: 0;
   margin: 0;
 }
 
-.navbar-brand a:hover{
-  background-color: #C86FC9;
-  color: #FFF;
+.navbar-brand a:hover {
+  background-color: #c86fc9;
+  color: #fff;
 }
 
-.navbar-toggler{
-  border-radius: 1vw
-}
-
-.nav-item{
+.navbar-toggler {
   border-radius: 1vw;
 }
 
-.nav-link{
+.nav-item {
   border-radius: 1vw;
 }
 
-.nav-item a:hover{
-  background-color: #C86FC9;
-  color: #FFF
-}
-
-.blockcode{
-  background-color: #F79AD3;
-}
-
-#img-logo{
+.nav-link {
   border-radius: 1vw;
 }
 
-.mt-5{
-  margin-top: 1vw!important;
+.nav-item a:hover {
+  background-color: #c86fc9;
+  color: #fff;
 }
 
-#mb-4-1{
+.blockcode {
+  background-color: #f79ad3;
+}
+
+#img-logo {
+  border-radius: 1vw;
+}
+
+.mt-5 {
+  margin-top: 1vw !important;
+}
+
+#mb-4-1 {
   margin-top: 6vw;
 }
 
-#mb-4-2{
+#mb-4-2 {
   margin-top: 6vw;
 }
 
-body{
-  margin-top: 8vh;
+body {
+  margin-top: 7vh;
 }
 
-main{
+main {
   background-color: #ffe7f6;
   border-color: #ffe7f6;
   /* margin: vw; */
 }
 
-p{
+p {
   margin-bottom: 0;
   /* margin-top: 0; */
 }
 
-.col-md-4{
+.col-md-4 {
   margin-bottom: 3vw;
 }
 
-#containerContrataciones{
+#containerContrataciones {
   padding: 9vw;
-  background-color:#ffe7f6
+  background-color: #ffe7f6;
 }

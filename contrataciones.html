@@ -40,23 +40,25 @@
           </div>
         </div>
       </nav>
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </header>
 
     <main>
         <div id="containerContrataciones" class="container mt-4">
             <h1>Contrataciones</h1>
-            <form>
-              <div class="mb-3">
-                <label for="emailInput" class="form-label">Inserte su correo asi nuestro equipo se puede comunicar con ustedes a la brevedad para organizar los detalles. </label>
-                <input type="email" class="form-control" id="emailInput" placeholder="steve@itba.edu.ar" required>
-              </div>
-              <div class="mb-3">
-                <label for="contentInput" class="form-label">Inserte su mensaje para que nuestro equipo lea. De todos los detalles que pueda, fecha, horario, cantidad de expectadores aproximados. </label>
-                <textarea class="form-control" id="contentInput" rows="4" placeholder="Escribe aquí tu mensaje" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
+            <form onsubmit="return validarCaptcha()">
+                <div class="mb-3">
+                    <label for="emailInput" class="form-label">Inserte su correo asi nuestro equipo se puede comunicar con ustedes a la brevedad para organizar los detalles. </label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="steve@itba.edu.ar" required>
+                </div>
+                <div class="mb-3">
+                    <label for="contentInput" class="form-label">Inserte su mensaje para que nuestro equipo lea. De todos los detalles que pueda, fecha, horario, cantidad de expectadores aproximados. </label>
+                    <textarea class="form-control" id="contentInput" rows="4" placeholder="Escribe aquí tu mensaje" required></textarea>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6LcnsakmAAAAABkMHNnGLzQawuyljVmqO9MTrbii"></div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
-          </div>
+        </div>
     </main>
 
     <footer>
