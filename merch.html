@@ -197,24 +197,49 @@
             </div>
           </div>
         </div>
+
+
+
         <div class="container-cart">
-          <div class="container-cart-icon">
-          </div>
+          <div class="container-cart-icon"></div>
           <div class="container-cart-products hidden-cart">
             <div class="cart-empty hidden">
               <p id="no-productos">No hay productos en el carrito.</p>
             </div>
-            <div class="row-product">
-            </div>
+            <div class="row-product"></div>
             <div class="cart-total">
               <p>Total a pagar: <p id="total-a-pagar">$0</p></p>
               <p>Productos en el carrito: <span id="cantidad">0</span></p>
             </div>
-            <button type="button" class="btn btn-danger" onclick="vaciar()" >Vaciar carrito </button>
+            <button type="button" class="btn btn-danger" onclick="vaciar()">Vaciar carrito</button>
+            <button type="button" class="btn btn-success" id="comprarBtn" disabled>Comprar</button>
           </div>
         </div>
+        <div id="popup" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Formulario de conejos</h3>
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" type="text"><br><br>
+            <label for="apellido">Apellido:</label>
+            <input id="apellido" type="text"><br><br>
+            <label>
+              <input id="termsCheckbox" type="checkbox"> Acepto los términos y condiciones
+            </label><br><br>
+            <button id="finalizarBtn">Finalizar Compra</button>
+          </div>
+        </div>
+        
+        
+
+        
+
+
+
       </main>
 
+      
+      
       <footer>
           <div class="blockcode">
               <div class="header"></div>

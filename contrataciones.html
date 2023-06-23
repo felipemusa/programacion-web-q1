@@ -42,21 +42,27 @@
     </header>
 
     <main>
-        <div id="containerContrataciones" class="container mt-4">
-            <h1>Contrataciones</h1>
-            <form onsubmit="return validarCaptcha()">
-                <div class="mb-3">
-                    <label for="emailInput" class="form-label">Inserte su correo asi nuestro equipo se puede comunicar con ustedes a la brevedad para organizar los detalles. </label>
-                    <input type="email" class="form-control" id="emailInput" placeholder="steve@itba.edu.ar" required>
-                </div>
-                <div class="mb-3">
-                    <label for="contentInput" class="form-label">Inserte su mensaje para que nuestro equipo lea. De todos los detalles que pueda, fecha, horario, cantidad de expectadores aproximados. </label>
-                    <textarea class="form-control" id="contentInput" rows="4" placeholder="Escribe aquí tu mensaje" required></textarea>
-                </div>
-                <div class="g-recaptcha" data-sitekey="6LcnsakmAAAAABkMHNnGLzQawuyljVmqO9MTrbii"></div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
-        </div>
+      <div id="containerContrataciones" class="container mt-4">
+        <h1>Contrataciones</h1>
+        <form id="contactForm">
+          <div class="mb-3">
+            <label for="emailInput" class="form-label">Inserte su correo para que nuestro equipo pueda comunicarse con ustedes a la brevedad y organizar los detalles.</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="steve@itba.edu.ar" required>
+          </div>
+          <div class="mb-3">
+            <label for="contentInput" class="form-label">Inserte su mensaje para que nuestro equipo lo revise. Incluya todos los detalles posibles, como fecha, horario y cantidad aproximada de espectadores.</label>
+            <textarea class="form-control" id="contentInput" rows="4" placeholder="Escribe aquí tu mensaje" required></textarea>
+          </div>
+          <input type="submit" class="btn btn-primary" id="submitBtn" value="Enviar">
+        </form>
+      </div>
+      
+      
+      
+      
+      
+      
+        
     </main>
 
     <footer>
